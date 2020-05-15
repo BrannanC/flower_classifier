@@ -49,7 +49,7 @@ def get_predict_args():
      parse_args() -data structure that stores the command line arguments object  
     """
     parser = argparse.ArgumentParser(
-        description='Classifies flower images using a pretrained CNN model')
+        description='Predicts a flower name from and image using a checkpoint')
     parser.add_argument('filepath', type=str,
                         nargs=1, help='Filepath of image to predict')
     parser.add_argument('checkpoint', type=str,
