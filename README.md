@@ -1,9 +1,12 @@
 # AI Programming with Python Project
 
-Project code for Udacity's AI Programming with Python Nanodegree program.
+Project code for Udacity's AI Programming with Python Nanodegree program. Uses Densenet, Alexnet and VGG pretrained networks to build a model that classifies an image of a flower by name.
 
 
 ## train.py
+
+Save a checkpoint 
+
 ### Classifies flower images using a pretrained CNN model
 ##### Command Line Arguments:
   - `--dir`, Image Folder as --dir with default value 'flower_images'
